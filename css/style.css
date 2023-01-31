@@ -10,3 +10,7 @@ body {
     font-family: 'Monserrat', sans-serif;
     background: #eee;
 }
+
+/* Keyword values */
+word-break: break-word;
+/* deprecated */
