@@ -16,6 +16,10 @@
     /* deprecated */
 }
 
+.tasks__item--hidden {
+    display: none;
+}
+
 .tasks__content--done {
     text-decoration: line-through;
 }
@@ -26,6 +30,7 @@
     width: 30px;
     height: 30px;
     padding: 0px;
+    transition: background 0.3s;
 }
 
 .tasks__button--toggleDone {
